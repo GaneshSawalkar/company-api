@@ -30,6 +30,6 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // route Middlewares
- app.use("/api", require("./routes/listing"));
+app.use("/api", require("./routes/listing"));
 
 app.listen(4000, () => console.log("server up and runing on port 4000!"));
